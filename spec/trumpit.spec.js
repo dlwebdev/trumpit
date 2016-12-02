@@ -19,13 +19,18 @@ describe('Trumpit', function() {
     
     
     describe('getTrumpism', function() {
-    
         it('should return a random quote as a string from the little orange man', function() {
             expect(Trumpit.getTrumpism()).toBeTruthy();
             expect(typeof Trumpit.getTrumpism()).toEqual('string');
         });
-        
     });    
     
+    
+    describe('trumpIt', function() {
+        it('should take a phrase as a string and append a quote from drumpf to end of it', function() {
+            expect(Trumpit.trumpIt("Test me")).toBeTruthy();
+            expect(Trumpit.trumpIt("Test me").length).toBeGreaterThan("Test me".length);
+        });
+    });     
     
 });

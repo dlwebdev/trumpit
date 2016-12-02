@@ -41,7 +41,19 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+
+function trumpIt(s) {
+    var trumpit_phrases = [
+        " and make it great again",
+        " and build a wall"
+    ];    
+    
+    return s + trumpit_phrases[getRandomInt(0, trumpit_phrases.length)];
+}
+
+
 module.exports = {
   isTrumped : isTrumped,
-  getTrumpism: getTrumpism
+  getTrumpism: getTrumpism,
+  trumpIt : trumpIt
 };
