@@ -2,6 +2,7 @@ var Trumpit = require('../src/trumpit');
 
 describe('Trumpit', function() {
     
+    
     describe('isTrumped', function() {
         it('should be satisfied if a string contains "is great again" and should be case insensitive', function() {
             expect(Trumpit.isTrumped("Make programming great again.")).toBe(true);
@@ -15,5 +16,16 @@ describe('Trumpit', function() {
             expect(Trumpit.isTrumped("Make programming awesome.")).toBe(false);            
         });        
     });
+    
+    
+    describe('getTrumpism', function() {
+    
+        it('should return a random quote as a string from the little orange man', function() {
+            expect(Trumpit.getTrumpism()).toBeTruthy();
+            expect(typeof Trumpit.getTrumpism()).toEqual('string');
+        });
+        
+    });    
+    
     
 });
