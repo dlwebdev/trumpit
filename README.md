@@ -2,11 +2,11 @@ Node module example poking fun at the president with the smallest hands in our n
 
 Made with TDD.
 
-### Usage
+# Usage
 
 var trumpit = require("trumpit");
 
-## isTrumped
+### isTrumped
 Takes a string and returns true if a string is trumped or false if it is not.
 
 A string is considered "trumped" if it contains any of the following phrases:
@@ -20,14 +20,14 @@ console.log("Is 'TEST' trumped: " + isStringTrumped);
 console.log("Is 'Build a wall, blah, blah, blah..' trumped: " + isStringTrumped2);
 
 
-## getTrumpism
+### getTrumpism
 Returns a random quote from Drumpf
 
 var drumpfQuote = trumpit.getTrumpism();
 console.log("One of our next presidents classy quotes: " + drumpfQuote);
 
 
-## trumpIt
+### trumpIt
 Takes a phrase as a string and appends a quote from drumpf to end of it
 
 var phrase = "Test me";
