@@ -1,0 +1,21 @@
+{
+  "name": "trumpit",
+  "version": "0.0.0",
+  "description": "Having fun with node. Tells you if a string is trumped or trumps it for you. Trump being the little orange guy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node ./spec --autotest"
+  },
+  "keywords": [
+    "strings",
+    "trump",
+    "testing"
+  ],
+  "author": "Daniel Weber",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jasmine-node": "^1.14.5"
+  }  
+}
+
