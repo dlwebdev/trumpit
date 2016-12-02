@@ -8,6 +8,11 @@ describe('Trumpit', function() {
             expect(Trumpit.isTrumped("Make programming Great Again.")).toBe(true);
             expect(Trumpit.isTrumped("Make programming awesome.")).toBe(false);            
         });
+        
+        it('should be satisfied if a string contains "build a wall" and should be case insensitive', function() {
+            expect(Trumpit.isTrumped("We should build a wall.")).toBe(true);
+            expect(Trumpit.isTrumped("Make programming awesome.")).toBe(false);            
+        });        
     });
     
 });
