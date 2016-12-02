@@ -1,8 +1,11 @@
 {
   "name": "trumpit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Having fun with node. Tells you if a string is trumped or trumps it for you. Trump being the little orange guy.",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/dlwebdev/trumpit.git"
+  },
   "scripts": {
     "test": "jasmine-node ./spec --autotest"
   },
