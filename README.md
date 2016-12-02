@@ -10,3 +10,13 @@ A string is considered "trumped" if it contains any of the following phrases:
 
 ### TODO
 * Docs
+
+### Usage
+
+var trumpit = require("trumpit");
+
+var isStringTrumped = trumpit.isTrumped("TEST");
+var isStringTrumped2 = trumpit.isTrumped("Build a wall, blah, blah, blah..");
+
+console.log("Is 'TEST' trumped: " + isStringTrumped);
+console.log("Is 'Build a wall, blah, blah, blah..' trumped: " + isStringTrumped2);

@@ -11,6 +11,7 @@ describe('Trumpit', function() {
         
         it('should be satisfied if a string contains "build a wall" and should be case insensitive', function() {
             expect(Trumpit.isTrumped("We should build a wall.")).toBe(true);
+            expect(Trumpit.isTrumped("Build a wall, blah, blah, blah..")).toBe(true);
             expect(Trumpit.isTrumped("Make programming awesome.")).toBe(false);            
         });        
     });

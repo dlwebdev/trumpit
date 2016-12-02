@@ -1,12 +1,14 @@
 function isTrumped(s) {
     
+    //console.log("Testing phrase: " + s);
+    
     var phrases = [
         "great again",
         "build a wall"
     ];
     
     for( var i = 0; i < phrases.length; i++ ) {
-        console.log("Testing phrase: " + phrases[i]);
+        //console.log("Testing phrase: " + phrases[i]);
         
         // check string passes in again each of these phrases. If it matches one, it will return true
         if(s.toLowerCase().indexOf(phrases[i]) > -1) return true;
