@@ -2,6 +2,12 @@ Node module example poking fun at the president with the smallest hands in our n
 
 Made with TDD.
 
+# Installation
+
+Just use npm:
+npm install --save-dev trumpit
+
+
 # Usage
 
 var trumpit = require("trumpit");

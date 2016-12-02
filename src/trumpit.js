@@ -31,7 +31,12 @@ function getTrumpism() {
         "We’re losing a lot of people because of the Internet. We have to see Bill Gates and a lot of different people who really understand what’s happening and maybe, in some ways, closing that Internet up in some ways.",
         "I identify more as a Democrat.",
         "I think Bush is probably the worst President in the history of the United States.",
-        "I know Hillary and I think she’d make a great president or vice-president."
+        "I know Hillary and I think she’d make a great president or vice-president.",
+        "Show me someone without an ego, and I'll show you a loser.",
+        "I know the Chinese. I've made a lot of money with the Chinese. I understand the Chinese mind.",
+        "JebBush has to like the Mexican Illegals because of his wife.",
+        "This very expensive GLOBAL WARMING bullshit has got to stop. Our planet is freezing, record low temps,and our GW scientists are stuck in ice.",
+        "I've always had a great relationship with the blacks."
     ];
     
     return quotes[getRandomInt(0, quotes.length)];
@@ -45,7 +50,12 @@ function getRandomInt(min, max) {
 function trumpIt(s) {
     var trumpit_phrases = [
         " and make it great again",
-        " and build a wall"
+        " and build a wall",
+        " and grab her by the pussy",
+        ", a lot of people are saying",
+        ", so sad.",
+        ", China",
+        " and you're pathetic"
     ];    
     
     return s + trumpit_phrases[getRandomInt(0, trumpit_phrases.length)];
