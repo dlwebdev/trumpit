@@ -1,11 +1,16 @@
+"use strict";
+
 function isTrumped(s) {
-    var phrases = [
+    
+    // Phrases that would cause a string to be Trumped
+    const phrases = [
         "great again",
         "build a wall"
     ];
     
-    for( var i = 0; i < phrases.length; i++ ) {
-        // check string passes in again each of these phrases. If it matches one, it will return true
+    // Take the string passed in and check if any of the phrases are a substring of it
+    for( let i = 0; i < phrases.length; i++ ) {
+        // check string passed in against phrase at this position in array. If is a substring it will return true
         if(s.toLowerCase().indexOf(phrases[i]) > -1) return true;
     }
    
@@ -14,7 +19,9 @@ function isTrumped(s) {
 }
 
 function getTrumpism() {
-    var quotes = [
+    
+    // Some famous quotes from trump
+    const quotes = [
         "There’s nobody bigger or better at the military than I am.",
         "If Ivanka weren’t my daughter, perhaps I’d be dating her.",
         "I would build a great wall, and nobody builds walls better than me. Believe me.",
@@ -39,6 +46,7 @@ function getTrumpism() {
         "I've always had a great relationship with the blacks."
     ];
     
+    // return random quote from the array
     return quotes[getRandomInt(0, quotes.length)];
 }
 
@@ -48,16 +56,20 @@ function getRandomInt(min, max) {
 
 
 function trumpIt(s) {
-    var trumpit_phrases = [
+    
+    // Phrases we can append to end of string passed in
+    const trumpit_phrases = [
         " and make it great again",
         " and build a wall",
         " and grab her by the pussy",
         ", a lot of people are saying",
         ", so sad.",
         ", China",
-        " and you're pathetic"
+        " and you're pathetic",
+        "You're a loser."
     ];    
     
+    // return random string appended to string passed in
     return s + trumpit_phrases[getRandomInt(0, trumpit_phrases.length)];
 }
 

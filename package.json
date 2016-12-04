@@ -1,6 +1,6 @@
 {
   "name": "trumpit",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Having fun with node. Tells you if a string is trumped or trumps it for you. Trump being the little orange guy.",
   "main": "index.js",
   "repository": {
@@ -17,8 +17,9 @@
   "author": "Daniel Weber",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "jasmine": "^2.5.2",
     "jasmine-node": "^1.14.5"
-  }  
+  }
 }
-

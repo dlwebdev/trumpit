@@ -1,1 +1,3 @@
-module.exports = require('./src/trumpit');
+require('babel/register');
+
+module.exports = require('./dist/trumpit');

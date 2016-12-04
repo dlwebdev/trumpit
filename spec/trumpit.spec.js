@@ -1,4 +1,4 @@
-var Trumpit = require('../src/trumpit');
+var Trumpit = require('../dist/trumpit');
 
 describe('Trumpit', function() {
     
