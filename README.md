@@ -5,7 +5,7 @@ Made with TDD.
 # Installation
 
 Just use npm:
-npm install --save-dev trumpit
+npm install --save trumpit
 
 
 # Usage
