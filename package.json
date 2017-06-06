@@ -1,6 +1,6 @@
 {
   "name": "trumpit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Having fun with node. tools poking fun at the little orange guy.",
   "main": "index.js",
   "repository": {
