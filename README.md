@@ -48,7 +48,7 @@ console.log("Trumped up phrase: " + trumpedPhrase);
 ```
 
 ### getTrumpMeme
-Returns a random quote from Drumpf
+Returns a random meme poking fun of him
 
 ```javascript
 var trumpMemeUrl = trumpit.getTrumpMeme();

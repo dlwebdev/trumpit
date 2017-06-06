@@ -5,7 +5,10 @@ function isTrumped(s) {
     // Phrases that would cause a string to be Trumped
     const phrases = [
         "great again",
-        "build a wall"
+        "build a wall",
+        "China",
+        "a lot of people are saying",
+        "believe me"
     ];
     
     // Take the string passed in and check if any of the phrases are a substring of it
@@ -21,7 +24,7 @@ function isTrumped(s) {
 
 function getTrumpMeme() {
 
-    // Some famous quotes from trump
+    // A meme of our fucking moron of a president
     const urlMemes = [
         "http://cbsnews1.cbsistatic.com/hub/i/r/2017/02/10/3ebc5ba8-a46c-4bc3-82a2-d060a0445724/crop/455x459+0+0/resize/620x465/64360f0876156abd6bcf80fe487663a6/screen-shot-2017-02-10-at-1-56-56-pm.png",
         "https://s-media-cache-ak0.pinimg.com/736x/77/78/f9/7778f98f880dc66187dc768c6462905e.jpg",
@@ -64,6 +67,9 @@ function getTrumpism() {
         "The other thing with the terrorists is you have to take out their families, when you get these terrorists, you have to take out their families.",
         "We’re losing a lot of people because of the Internet. We have to see Bill Gates and a lot of different people who really understand what’s happening and maybe, in some ways, closing that Internet up in some ways.",
         "I identify more as a Democrat.",
+        "I think we've done more than perhaps any president in the first 100 days.",
+        "I thought it would be easier",
+        "I actually don't have a bad hairline.",
         "I think Bush is probably the worst President in the history of the United States.",
         "I know Hillary and I think she’d make a great president or vice-president.",
         "Show me someone without an ego, and I'll show you a loser.",
@@ -92,6 +98,7 @@ function trumpIt(s) {
         " and grab her by the pussy",
         ", a lot of people are saying",
         ", so sad.",
+        " Covfefe.",
         ", Chinnnnaaaa",
         " and you're pathetic",
         ", and you're a loser."
