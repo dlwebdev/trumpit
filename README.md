@@ -40,10 +40,17 @@ console.log("One of our next presidents classy quotes: " + drumpfQuote);
 ### trumpIt
 Takes a phrase as a string and appends a quote from drumpf to end of it
 
-
 ```javascript
 var phrase = "Test me";
 var trumpedPhrase = Trumpit.trumpIt(phrase);
 
 console.log("Trumped up phrase: " + trumpedPhrase);
+```
+
+### getTrumpMeme
+Returns a random quote from Drumpf
+
+```javascript
+var trumpMemeUrl = trumpit.getTrumpMeme();
+console.log("A random meme url about Trump: " + trumpMemeUrl);
 ```

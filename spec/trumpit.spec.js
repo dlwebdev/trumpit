@@ -23,14 +23,21 @@ describe('Trumpit', function() {
             expect(Trumpit.getTrumpism()).toBeTruthy();
             expect(typeof Trumpit.getTrumpism()).toEqual('string');
         });
-    });    
-    
-    
+    });
+
+
     describe('trumpIt', function() {
         it('should take a phrase as a string and append a quote from drumpf to end of it', function() {
             expect(Trumpit.trumpIt("Test me")).toBeTruthy();
             expect(Trumpit.trumpIt("Test me").length).toBeGreaterThan("Test me".length);
         });
-    });     
+    });
+
+    describe('getTrumpMeme', function() {
+        it('should return a url to a trump meme', function() {
+            expect(Trumpit.getTrumpMeme()).toBeTruthy();
+            expect(typeof Trumpit.getTrumpism()).toEqual('string');
+        });
+    });
     
 });
